@@ -1,0 +1,12 @@
+version: "3"
+services:
+  demo-dowload:
+    container_name: demo-dowload
+    build:
+      dockerfile: Dockerfile
+      context: .
+    # volumes:
+    #   - .:/hodoan/src/app
+    # - ./hodoan/src/app/node_modules
+    ports:
+      - 80:80

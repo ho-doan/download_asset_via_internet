@@ -1,0 +1,23 @@
+name: download_asset_via_internet
+description: "Download assets via internet"
+version: 0.0.1
+# homepage:
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  archive: ^3.6.1
+  dio: ^5.5.0+1
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+  hodoan_lint: ^0.0.4
+flutter:
